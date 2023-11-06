@@ -1,0 +1,23 @@
+#hr,
+#min,
+#sec,
+#count {
+  font-size: 100px;
+  font-weight: bold;
+}
+#hr ~ span,
+#min ~ span,
+#sec ~ span {
+  font-size: 40px;
+  font-weight: bold;
+}
+h1 {
+  font-size: 100px;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+.container {
+  height: 100vh;
+}
