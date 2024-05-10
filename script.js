@@ -29,11 +29,11 @@ var min = 0;
             min = min + 1;
             sec = 0;
           }
-          if (min == 1) {
+          if (min == 2) {
             timer = false;
             document.getElementById("count").innerHTML = "00";
             document.getElementById("sec").innerHTML = "00";
-            document.querySelector("h1").innerHTML = "1 minute is hover";
+            document.querySelector("h1").innerHTML = "2 minute is hover";
             alert("25 minute is hover....");
             document.querySelector("h2").style.display = "block";
           }
