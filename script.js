@@ -33,8 +33,8 @@ var min = 0;
             timer = false;
             document.getElementById("count").innerHTML = "00";
             document.getElementById("sec").innerHTML = "00";
-            document.querySelector("h1").innerHTML = "1 minute is hover";
-            alert("25 minute is hover....");
+            document.querySelector("h1").innerHTML = "2 minute is hover";
+            alert("2minute is hover....");
             document.querySelector("h2").style.display = "block";
           }
           document.getElementById("count").innerHTML = count;
